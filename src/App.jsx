@@ -4,16 +4,16 @@ import BuscarDados from "./components/budcarDados";
 
 function App() {
   return (
-    <div>
-      <h1>Olá, Mundo! React *-*</h1>
-      <MeuContador />
+    <div className="container">
+      <h1 className="teste">Olá, Mundo! React *-*</h1>
+      <MeuContador/>
 
-      <h2>Listas no React</h2>
+      <h2 className="teste">Listas no React</h2>
       <ul>
         <ListasReact />
       </ul>
 
-      <h2>Buscando dados com Fetch</h2>
+      <h2 className="teste">Buscando dados com Fetch</h2>
       <ul>
         <BuscarDados />
       </ul>
